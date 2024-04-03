@@ -9,7 +9,7 @@ const ScrollAreaPage = () => (
   <ComponentDocsPageTemplate
     title="Scroll Area"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/ScrollArea.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/scrollarea"
   >

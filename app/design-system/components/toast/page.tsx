@@ -25,7 +25,7 @@ const ToastPage = () => {
     <ComponentDocsPageTemplate
       title="Toast"
       githubLink={
-        'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Toast.tsx'
+        'https://github.com/src/components/ui/Component.tsx
       }
       path="/toast"
     >

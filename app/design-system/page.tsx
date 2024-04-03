@@ -1,9 +1,9 @@
-import { Palette, PuzzlePiece } from '@phosphor-icons/react/dist/ssr';
-import { Metadata } from 'next';
-import Link from 'next/link';
+import { Palette, PuzzlePiece } from "@phosphor-icons/react/dist/ssr";
+import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: 'Design System | Vesto',
+  title: "Design System | Vesto",
 };
 
 function DesignSystem() {
@@ -70,7 +70,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Alert.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -94,7 +94,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Card.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -131,7 +131,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Checkbox.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -168,7 +168,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Drawer.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -192,7 +192,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/DropdownMenu.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -217,7 +217,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Text.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -242,7 +242,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Input.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -266,7 +266,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Skeleton.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -290,7 +290,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Modal.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -314,7 +314,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Pill.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -338,7 +338,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Popover.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -362,7 +362,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/RadioCard.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -386,7 +386,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/ScrollArea.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -410,7 +410,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Select.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -448,7 +448,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Switch.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -472,7 +472,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Table.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -496,7 +496,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Tabs.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -520,7 +520,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Tag.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -544,7 +544,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Toast.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >
@@ -568,7 +568,7 @@ function DesignSystem() {
                 <GitBranch size={16} color="currentColor" weight="bold" />
                 <Link
                   href={
-                    'https://github.com/vesto-fi/vesto-web/blob/dashboard-redesign/src/components/ui/Tooltip.tsx'
+                    'https://github.com/src/components/ui/Component.tsx
                   }
                   target="_blank"
                 >

@@ -16,7 +16,7 @@ const ModalPage = () => (
   <ComponentDocsPageTemplate
     title="Modal"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Modal.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/modal"
   >

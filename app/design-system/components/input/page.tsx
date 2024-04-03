@@ -61,7 +61,7 @@ const InputPage = () => {
     <ComponentDocsPageTemplate
       title="Input"
       githubLink={
-        'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Input.tsx'
+        'https://github.com/src/components/ui/Component.tsx
       }
       path="/input"
     >

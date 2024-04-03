@@ -77,7 +77,7 @@ const TextPage = () => (
   <ComponentDocsPageTemplate
     title="Text"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Text.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/text"
   >

@@ -7,7 +7,7 @@ const CardPage = () => (
   <ComponentDocsPageTemplate
     title="Card"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Card.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/card"
   >

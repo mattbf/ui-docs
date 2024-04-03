@@ -14,7 +14,7 @@ const PopoverPage = () => (
   <ComponentDocsPageTemplate
     title="Popover"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Popover.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/popover"
   >

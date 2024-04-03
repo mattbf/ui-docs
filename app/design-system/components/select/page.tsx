@@ -78,7 +78,7 @@ const SelectPage = () => {
     <ComponentDocsPageTemplate
       title="Select"
       githubLink={
-        'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Select.tsx'
+        'https://github.com/src/components/ui/Component.tsx
       }
       path="/select"
     >

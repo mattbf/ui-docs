@@ -42,7 +42,7 @@ const AlertPage = () => (
   <ComponentDocsPageTemplate
     title="Alert"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Alert.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/alert"
   >

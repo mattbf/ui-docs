@@ -8,7 +8,7 @@ const CheckboxPage = () => (
   <ComponentDocsPageTemplate
     title="Switch"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Switch.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/switch"
   >

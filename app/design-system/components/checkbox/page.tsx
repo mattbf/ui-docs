@@ -9,7 +9,7 @@ const CheckboxPage = () => (
   <ComponentDocsPageTemplate
     title="Checkbox"
     githubLink={
-      'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/Checkbox.tsx'
+      'https://github.com/src/components/ui/Component.tsx
     }
     path="/checkbox"
   >

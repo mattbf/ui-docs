@@ -11,7 +11,7 @@ const RadioCardPage = () => {
     <ComponentDocsPageTemplate
       title="Radio Card"
       githubLink={
-        'https://github.com/vesto-fi/vesto-web/blob/develop/src/components/ui/RadioGroup.tsx'
+        'https://github.com/src/components/ui/Component.tsx
       }
       path="/radiocard"
     >
