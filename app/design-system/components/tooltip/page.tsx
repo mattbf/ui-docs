@@ -1,40 +1,21 @@
-'use client';
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 
-import { Button } from '@/components/ui/Button';
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/Popover';
-import { Text } from '@/components/ui/Text';
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from '@/components/ui/Tooltip';
-import ComponentDocsPageTemplate from '@/app/design-system/components/ComponentDocsPageTemplate';
+import { Button } from "@/components/ui/Button";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/Popover";
+import { Text } from "@/components/ui/Text";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/Tooltip";
+import ComponentDocsPageTemplate from "@/app/design-system/components/ComponentDocsPageTemplate";
 
 const CheckboxPage = () => {
   const [tooltipOpen, setTooltipOpen] = useState(false);
   const [tooltipOpenOnClick, setTooltipOpenOnClick] = useState(false);
   const [autoCloseTimeout, setAutoCloseTimeout] = useState<NodeJS.Timeout>();
   return (
-    <ComponentDocsPageTemplate
-      title="Tooltip"
-      githubLink={
-        'https://github.com/src/components/ui/Component.tsx
-      }
-      path="/tooltip"
-    >
+    <ComponentDocsPageTemplate title="Tooltip" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/tooltip">
       <div className="p-8 min-h-[750px] flex flex-col items-start justify-start gap-12">
         <div className="w-full">
-          <Text
-            variant="overline"
-            size="md"
-            className="text-text-secondary mb-2"
-          >
+          <Text variant="overline" size="md" className="text-text-secondary mb-2">
             Position, offset, and size.
           </Text>
           <div className="flex items-center gap-x-12 w-full p-6 py-8 bg-black-alpha-50 border-stroke-tertiary shadow-sm border rounded-md">
@@ -55,9 +36,7 @@ const CheckboxPage = () => {
                     Left
                   </Button>
                 </TooltipTrigger>
-                <TooltipContent side="left">
-                  Well hello there friend
-                </TooltipContent>
+                <TooltipContent side="left">Well hello there friend</TooltipContent>
               </Tooltip>
             </TooltipProvider>
             <TooltipProvider>
@@ -67,9 +46,7 @@ const CheckboxPage = () => {
                     right
                   </Button>
                 </TooltipTrigger>
-                <TooltipContent side="right">
-                  Well hello there friend
-                </TooltipContent>
+                <TooltipContent side="right">Well hello there friend</TooltipContent>
               </Tooltip>
             </TooltipProvider>
             <TooltipProvider>
@@ -79,9 +56,7 @@ const CheckboxPage = () => {
                     bottom
                   </Button>
                 </TooltipTrigger>
-                <TooltipContent side="bottom">
-                  Well hello there friend
-                </TooltipContent>
+                <TooltipContent side="bottom">Well hello there friend</TooltipContent>
               </Tooltip>
             </TooltipProvider>
             <TooltipProvider>
@@ -91,9 +66,7 @@ const CheckboxPage = () => {
                     top
                   </Button>
                 </TooltipTrigger>
-                <TooltipContent side="top">
-                  Well hello there friend
-                </TooltipContent>
+                <TooltipContent side="top">Well hello there friend</TooltipContent>
               </Tooltip>
             </TooltipProvider>
             <TooltipProvider>
@@ -123,11 +96,7 @@ const CheckboxPage = () => {
           </div>
         </div>
         <div className="w-full">
-          <Text
-            variant="overline"
-            size="md"
-            className="text-text-secondary mb-2"
-          >
+          <Text variant="overline" size="md" className="text-text-secondary mb-2">
             Delay, Controlled and trigger on click
           </Text>
           <div className="flex items-center gap-x-12 w-full p-6 py-8 bg-black-alpha-50 border-stroke-tertiary shadow-sm border rounded-md">
@@ -142,10 +111,7 @@ const CheckboxPage = () => {
               </Tooltip>
             </TooltipProvider>
             <TooltipProvider>
-              <Tooltip
-                open={tooltipOpen}
-                onOpenChange={(open: boolean) => setTooltipOpen(open)}
-              >
+              <Tooltip open={tooltipOpen} onOpenChange={(open: boolean) => setTooltipOpen(open)}>
                 <TooltipTrigger>
                   <Button variant="outline" size="sm">
                     Controlled

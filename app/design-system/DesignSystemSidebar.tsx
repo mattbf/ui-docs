@@ -1,106 +1,102 @@
-import React from 'react';
-import { DesignSystemSidebarLink } from './DesignSystemSidebarLink';
+import React from "react";
+import { DesignSystemSidebarLink } from "./DesignSystemSidebarLink";
 
 const basePath = `/design-system/components`;
 export const componentLinks = [
   {
-    title: 'Alert',
+    title: "Alert",
     href: `${basePath}/alert`,
   },
   {
-    title: 'Button',
+    title: "Button",
     href: `${basePath}/button`,
   },
   {
-    title: 'Calendar',
+    title: "Calendar",
     href: `${basePath}/calendar`,
   },
   {
-    title: 'Card',
+    title: "Card",
     href: `${basePath}/card`,
   },
   {
-    title: 'Checkbox',
+    title: "Checkbox",
     href: `${basePath}/checkbox`,
   },
   {
-    title: 'Combobox',
+    title: "Combobox",
     href: `${basePath}/combobox`,
   },
   {
-    title: 'Drawer',
+    title: "Drawer",
     href: `${basePath}/drawer`,
   },
   {
-    title: 'Dropdown Menu',
+    title: "Dropdown Menu",
     href: `${basePath}/dropdownmenu`,
   },
   {
-    title: 'Input',
+    title: "Input",
     href: `${basePath}/input`,
   },
   {
-    title: 'Skeleton',
+    title: "Skeleton",
     href: `${basePath}/skeleton`,
   },
   {
-    title: 'Modal',
+    title: "Modal",
     href: `${basePath}/modal`,
   },
   {
-    title: 'Pill',
+    title: "Pill",
     href: `${basePath}/pill`,
   },
   {
-    title: 'Popover',
+    title: "Popover",
     href: `${basePath}/popover`,
   },
   {
-    title: 'Radio Card',
+    title: "Radio Card",
     href: `${basePath}/radiocard`,
   },
   {
-    title: 'Scroll Area',
+    title: "Scroll Area",
     href: `${basePath}/scrollarea`,
   },
   {
-    title: 'Select',
+    title: "Select",
     href: `${basePath}/select`,
   },
   {
-    title: 'Sentry',
-    href: `${basePath}/sentry`,
-  },
-  {
-    title: 'Switch',
+    title: "Switch",
     href: `${basePath}/switch`,
   },
   {
-    title: 'Table',
+    title: "Table",
     href: `${basePath}/table`,
   },
   {
-    title: 'Tabs',
+    title: "Tabs",
     href: `${basePath}/tabs`,
   },
   {
-    title: 'Tag',
+    title: "Tag",
     href: `${basePath}/tag`,
   },
   {
-    title: 'Text',
+    title: "Text",
     href: `${basePath}/text`,
   },
   {
-    title: 'Toast',
+    title: "Toast",
     href: `${basePath}/toast`,
   },
   {
-    title: 'Tooltip',
+    title: "Tooltip",
     href: `${basePath}/tooltip`,
   },
   {
-    title: 'Virtualized',
+    title: "Virtualized",
     href: `${basePath}/virtualized`,
   },
 ];

@@ -1,17 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import ComponentDocsPageTemplate from '@/app/design-system/components/ComponentDocsPageTemplate';
-import { Text } from '@/components/ui/Text';
-import { Skeleton } from '@/components/ui/Loading/Skeleton';
+import ComponentDocsPageTemplate from "@/app/design-system/components/ComponentDocsPageTemplate";
+import { Text } from "@/components/ui/Text";
+import { Skeleton } from "@/components/ui/Loading/Skeleton";
 
 const CheckboxPage = () => (
-  <ComponentDocsPageTemplate
-    title="Skeleton"
-    githubLink={
-      'https://github.com/src/components/ui/Component.tsx
-    }
-    path="/skeleton"
-  >
+  <ComponentDocsPageTemplate title="Skeleton" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/skeleton">
     <div className="p-8 flex flex-row items-start gap-[3rem] w-full border-stroke-tertiary shadow-sm rounded-md h-[1000px]">
       <div className="w-1/3 flex flex-col gap-2">
         <Text variant="label" className="mb-2">

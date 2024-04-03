@@ -1,8 +1,8 @@
-import React from 'react';
-import { CaretRight, Lock, Plus } from '@phosphor-icons/react/dist/ssr';
+import React from "react";
+import { CaretRight, Lock, Plus } from "@phosphor-icons/react/dist/ssr";
 
-import { Button } from '@/components/ui/Button';
-import ComponentDocsPageTemplate from '@/app/design-system/components/ComponentDocsPageTemplate';
+import { Button } from "@/components/ui/Button";
+import ComponentDocsPageTemplate from "@/app/design-system/components/ComponentDocsPageTemplate";
 
 const ButtonVariantRow = ({
   title,
@@ -10,8 +10,8 @@ const ButtonVariantRow = ({
   color,
 }: {
   title: string;
-  variant?: 'link' | 'default' | 'outline' | 'ghost' | null | undefined;
-  color?: 'default' | 'dark-green' | 'black' | 'white' | 'error' | undefined;
+  variant?: "link" | "default" | "outline" | "ghost" | null | undefined;
+  color?: "default" | "dark-green" | "black" | "white" | "error" | undefined;
 }): React.JSX.Element => (
   <div className="text-lg text-black font-medium lowercase flex flex-col gap-2 mb-10">
     <div className="w-[12rem] px-2 text-text-secondary uppercase">{title}</div>
@@ -37,13 +37,7 @@ const ButtonVariantRow = ({
       <Button variant={variant} size="md" color={color} disabled>
         disabled
       </Button>
-      <Button
-        variant={variant}
-        size="md"
-        color={color}
-        leftIcon={Lock}
-        rightIcon={CaretRight}
-      >
+      <Button variant={variant} size="md" color={color} leftIcon={Lock} rightIcon={CaretRight}>
         Button
       </Button>
       <Button variant={variant} size="sm" color={color} leftIcon={Plus} />
@@ -54,13 +48,7 @@ const ButtonVariantRow = ({
 );
 
 const ButtonPage = () => (
-  <ComponentDocsPageTemplate
-    title="Button"
-    githubLink={
-      'https://github.com/src/components/ui/Component.tsx
-    }
-    path="/button"
-  >
+  <ComponentDocsPageTemplate title="Button" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/button">
     <div>
       <ButtonVariantRow title="regular" />
       <ButtonVariantRow title="Dark Green" color="dark-green" />

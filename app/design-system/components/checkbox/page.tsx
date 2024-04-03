@@ -1,18 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import ComponentDocsPageTemplate from '@/app/design-system/components/ComponentDocsPageTemplate';
-import Card from '@/components/ui/Card';
-import { Text } from '@/components/ui/Text';
-import { Checkbox } from '@/components/ui/Checkbox';
+import ComponentDocsPageTemplate from "@/app/design-system/components/ComponentDocsPageTemplate";
+import Card from "@/components/ui/Card";
+import { Text } from "@/components/ui/Text";
+import { Checkbox } from "@/components/ui/Checkbox";
 
 const CheckboxPage = () => (
-  <ComponentDocsPageTemplate
-    title="Checkbox"
-    githubLink={
-      'https://github.com/src/components/ui/Component.tsx
-    }
-    path="/checkbox"
-  >
+  <ComponentDocsPageTemplate title="Checkbox" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/checkbox">
     <div className="p-8 min-h-[500px] flex flex-row items-center justify-center gap-4">
       <Card className="m-8">
         <Text variant="headline" size="lg" className="mb-2">
