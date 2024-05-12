@@ -6,7 +6,7 @@ import { Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, ModalTrigger 
 import { Button } from "@/components/ui/Button";
 
 const ModalPage = () => (
-  <ComponentDocsPageTemplate title="Modal" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/modal">
+  <ComponentDocsPageTemplate title="Modal" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Modal.tsx"} path="/modal">
     <div className="p-8 min-h-[750px] flex flex-col items-center justify-center">
       <Modal>
         <ModalTrigger asChild>
@@ -47,7 +47,7 @@ const ModalPage = () => (
           <ModalBody
             size="sm"
             className="border-2
-            border-lavender-700 bg-lavender-100"
+            border-purple-700 bg-purple-100"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in

@@ -12,7 +12,11 @@ const CheckboxPage = () => {
   const [tooltipOpenOnClick, setTooltipOpenOnClick] = useState(false);
   const [autoCloseTimeout, setAutoCloseTimeout] = useState<NodeJS.Timeout>();
   return (
-    <ComponentDocsPageTemplate title="Tooltip" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/tooltip">
+    <ComponentDocsPageTemplate
+      title="Tooltip"
+      githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Tooltip.tsx"}
+      path="/tooltip"
+    >
       <div className="p-8 min-h-[750px] flex flex-col items-start justify-start gap-12">
         <div className="w-full">
           <Text variant="overline" size="md" className="text-text-secondary mb-2">

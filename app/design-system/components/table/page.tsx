@@ -53,7 +53,7 @@ const positions = [
 ];
 
 const TablePage = () => (
-  <ComponentDocsPageTemplate title="Table" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/table">
+  <ComponentDocsPageTemplate title="Table" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Table.tsx"} path="/table">
     <div className="p-8 min-h-[750px] flex flex-col items-start justify-center">
       <Text variant="body" size="md">
         Place sub components within the table cells
@@ -79,7 +79,7 @@ const TablePage = () => (
                   {position.orderStatus}
                 </Tag>
               </TableCell>
-              <TableCell className="text-success-green-500 font-mono border border-orange-500">
+              <TableCell className="text-grass-500 font-mono border border-orange-500">
                 <div className="flex flex-row gap-x-1">
                   <TrendUp size={16} />
                   {position.interest}

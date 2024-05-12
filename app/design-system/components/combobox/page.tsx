@@ -10,38 +10,103 @@ import {
   ModalTrigger,
 } from '@/components/ui/Modal';
 import { Button } from '@/components/ui/Button';
+import CodeBlock from '@/components/ui/CodeBlock';
+import Link from 'next/link';
+
+const componentCode = `<BooksComboxbox />`;
+
+const Component = () => (
+  <div className="flex flex-row items-center justify-center gap-2 py-8">
+    <BooksComboxbox />
+  </div>
+);
+
+const comboboxInModalCode = `<Modal modal={false}>
+    <ModalTrigger asChild>
+      <Button variant="outline" className="mt-4">
+        Combobox inside modal{' '}
+      </Button>
+    </ModalTrigger>
+    <ModalContent size="sm" allowScrollOverlay>
+      <ModalBody
+        size="sm"
+        className="flex flex-col gap-4 items-center justify-center"
+      >
+        Combobox inside a Modal
+        <BooksComboxbox />
+      </ModalBody>
+    </ModalContent>
+  </Modal>`;
+
+const ComboboxInModalComponent = () => (
+  <div className="flex flex-row items-center justify-center gap-2 py-8">
+    <Modal modal={false}>
+      <ModalTrigger asChild>
+        <Button variant="outline" className="mt-4">
+          Combobox inside modal{' '}
+        </Button>
+      </ModalTrigger>
+      <ModalContent size="sm" allowScrollOverlay>
+        <ModalBody
+          size="sm"
+          className="flex flex-col gap-4 items-center justify-center"
+        >
+          Combobox inside a Modal
+          <BooksComboxbox />
+        </ModalBody>
+      </ModalContent>
+    </Modal>
+  </div>
+);
 
 const ComboboxPage = () => (
   <ComponentDocsPageTemplate title="Combobox" path="/combobox">
-    <div className="p-8 min-h-[750px] flex flex-col gap-8 items-center justify-center">
-      <BooksComboxbox />
-
-      <div>
-        <Text> To use inside a modal we pass</Text>
-        <Text className="font-mono bg-surface-quaternary text-text-primary p-4 rounded-sm border border-stroke-tertiary my-2">
-          <code>{'<PopoverContent className="w-24 h-6" />'}</code>
+    <div className="flex flex-col gap-16 pb-12">
+      <div className="flex flex-col gap-4">
+        <Text variant="headline" size="2xl" as="h2">
+          Regular Combobox
         </Text>
-        <Text> To the combobox's popover, and</Text>
-        <Text className="font-mono bg-surface-quaternary text-text-primary p-4 rounded-sm border border-stroke-tertiary my-2">
-          <code>{'<ModalContent allowScrollOverlay />'}</code>
+        <div className="container mx-auto">
+          <CodeBlock
+            aria-label="Hello world"
+            language="html"
+            component={<Component />}
+          >
+            {componentCode}
+          </CodeBlock>
+        </div>
+        <Text variant="body" size="sm" className="text-text-secondary">
+          We create custom comboboxes for each use case. Right now, we don't
+          have a combobox component because of the nature of the{' '}
+          <Link
+            href="https://www.downshift-js.com/downshift/"
+            target="_blank"
+            className="text-baby-blue-700"
+          >
+            Downshift
+          </Link>{' '}
+          APIs
         </Text>
-        <Text> To the combobox's parent's modal body.</Text>
-        <Modal modal={false}>
-          <ModalTrigger asChild>
-            <Button fullWidth variant="outline" className="mt-4">
-              Combobox inside modal{' '}
-            </Button>
-          </ModalTrigger>
-          <ModalContent size="sm" allowScrollOverlay>
-            <ModalBody
-              size="sm"
-              className="flex flex-col gap-4 items-center justify-center"
-            >
-              Combobox inside a Modal
-              <BooksComboxbox />
-            </ModalBody>
-          </ModalContent>
-        </Modal>
+      </div>
+      <div className="flex flex-col gap-4">
+        <Text variant="headline" size="2xl" as="h2">
+          Rendering a Combobox inside of a modal/dialog
+        </Text>
+        <div className="container mx-auto">
+          <CodeBlock
+            aria-label="Hello world"
+            language="html"
+            component={<ComboboxInModalComponent />}
+          >
+            {comboboxInModalCode}
+          </CodeBlock>
+        </div>
+        <Text variant="body" size="sm" className="text-text-secondary">
+          To use inside a modal we make sure that the combobox's{' '}
+          <code>PopoverContent</code> does NOT have the <code>forceMount</code>{' '}
+          prop enabled and we add the <code>allowScrollOverlay</code> to the
+          parent modal's <code>ModalContent</code>
+        </Text>
       </div>
     </div>
   </ComponentDocsPageTemplate>

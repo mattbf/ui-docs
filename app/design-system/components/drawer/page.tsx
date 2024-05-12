@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/Input";
 const DRAWER_SIDES = ["top", "right", "bottom", "left"] as const;
 
 const DrawerPage = () => (
-  <ComponentDocsPageTemplate title="Drawer" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/drawer">
+  <ComponentDocsPageTemplate title="Drawer" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Drawer.tsx"} path="/drawer">
     <div className="p-8 min-h-[750px] flex flex-col gap-8 items-center justify-center">
       <div className="grid grid-cols-2 gap-2">
         {DRAWER_SIDES.map((side) => (

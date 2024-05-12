@@ -43,7 +43,7 @@ const InputVariantColumn = ({ title, size }: { title: string; size: "md" | "lg" 
 const InputPage = () => {
   const [inputValue, setInputValue] = useState<string>("controlled");
   return (
-    <ComponentDocsPageTemplate title="Input" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/input">
+    <ComponentDocsPageTemplate title="Input" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Input.tsx"} path="/input">
       <div className="p-8 flex flex-row gap-[1rem] w-full border-stroke-tertiary shadow-sm rounded-md items-stretch">
         <InputVariantColumn title="medium" size="md" />
         <InputVariantColumn title="large" size="lg" />

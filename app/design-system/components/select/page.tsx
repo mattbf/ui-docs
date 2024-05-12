@@ -54,7 +54,11 @@ const SelectPage = () => {
     | undefined
   >(undefined);
   return (
-    <ComponentDocsPageTemplate title="Select" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/select">
+    <ComponentDocsPageTemplate
+      title="Select"
+      githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Select.tsx"}
+      path="/select"
+    >
       <div className="p-8 flex flex-row gap-[1rem] w-full border-stroke-tertiary shadow-sm rounded-md items-stretch h-full">
         <SelectVariantColumn title="medium" size="md" />
         <SelectVariantColumn title="large" size="lg" />

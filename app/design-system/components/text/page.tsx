@@ -74,7 +74,7 @@ const TextVariantColumn = ({
   </div>
 );
 const TextPage = () => (
-  <ComponentDocsPageTemplate title="Text" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/text">
+  <ComponentDocsPageTemplate title="Text" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Text.tsx"} path="/text">
     <div className="p-8">
       <TextVariantColumn
         phrase="The cash management

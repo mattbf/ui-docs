@@ -1,12 +1,16 @@
 import React from "react";
 
 import ComponentDocsPageTemplate from "@/app/design-system/components/ComponentDocsPageTemplate";
-import Card from "@/components/ui/Card";
+import { Card } from "@/components/ui/Card";
 import { ScrollArea } from "@/components/ui/ScrollArea";
 import { Text } from "@/components/ui/Text";
 
 const ScrollAreaPage = () => (
-  <ComponentDocsPageTemplate title="Scroll Area" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/scrollarea">
+  <ComponentDocsPageTemplate
+    title="Scroll Area"
+    githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/ScrollArea.tsx"}
+    path="/scrollarea"
+  >
     <div className="flex flex-col items-start justify-center px-24 py-48 gap-4">
       <Text className="text-text-secondary" variant="body" size="md">
         The scroll area needs a height (or width if horizontal scroll) to cutt off content at

@@ -5,7 +5,7 @@ import { Text } from "@/components/ui/Text";
 import { PillGroup, PillItem } from "@/components/ui/Pill";
 
 const PillPage = () => (
-  <ComponentDocsPageTemplate title="Pill" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/pill">
+  <ComponentDocsPageTemplate title="Pill" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Pill.tsx"} path="/pill">
     <div className="p-8 min-h-[250px] flex flex-row items-center justify-center gap-6">
       <div className="flex-col">
         <Text variant="headline" size="lg" className="mb-2">

@@ -18,7 +18,7 @@ const ToastPage = () => {
 
   useEffect(() => () => clearTimeout(timerRef.current), []);
   return (
-    <ComponentDocsPageTemplate title="Toast" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/toast">
+    <ComponentDocsPageTemplate title="Toast" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Toast.tsx"} path="/toast">
       <div>
         <div className="p-8 min-h-[250px] flex flex-row items-center justify-center gap-x-4">
           <Button
@@ -91,11 +91,11 @@ const ToastPage = () => {
           </Text>
           <Text variant="body" size="md" className="text-text-secondary">
             Call the function{" "}
-            <code className="text-sm sm:text-base inline-flex text-left items-center space-x-4 bg-lavender-900 text-white rounded-lg px-2 py-1">
+            <code className="text-sm sm:text-base inline-flex text-left items-center space-x-4 bg-purple-900 text-white rounded-lg px-2 py-1">
               showSnackbar
             </code>{" "}
             or{" "}
-            <code className="text-sm sm:text-base inline-flex text-left items-center space-x-4 bg-lavender-900 text-white rounded-lg px-2 py-1">
+            <code className="text-sm sm:text-base inline-flex text-left items-center space-x-4 bg-purple-900 text-white rounded-lg px-2 py-1">
               displayErrors
             </code>{" "}
             to show the global snackbar

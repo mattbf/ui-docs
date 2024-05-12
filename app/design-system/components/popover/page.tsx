@@ -7,7 +7,11 @@ import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 
 const PopoverPage = () => (
-  <ComponentDocsPageTemplate title="Popover" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/popover">
+  <ComponentDocsPageTemplate
+    title="Popover"
+    githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Popover.tsx"}
+    path="/popover"
+  >
     <div className="p-8 flex flex-row items-start gap-[3rem] w-full border-stroke-tertiary shadow-sm rounded-md h-[1000px]">
       <div className="w-1/3 flex flex-col gap-8">
         <Text variant="label" className="mb-2">

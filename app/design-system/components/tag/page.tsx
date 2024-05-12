@@ -9,9 +9,9 @@ const tagColors = [
   "blue",
   "gold",
   "orange",
-  "success-green",
-  "warning-yellow",
-  "error-red",
+  "grass",
+  "yellow",
+  "red",
   "graphite",
   "black",
   "dark-green",
@@ -58,7 +58,7 @@ const TagVariantRow = ({ title, variant }: { title: string; variant?: "default" 
   </div>
 );
 const TagPage = () => (
-  <ComponentDocsPageTemplate title="Tag" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/tag">
+  <ComponentDocsPageTemplate title="Tag" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Tag.tsx"} path="/tag">
     <div className="p-8 flex flex-row gap-x-4">
       <TagVariantRow title="Regular" />
       <TagVariantRow title="Outline" variant="outline" />

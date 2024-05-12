@@ -16,7 +16,11 @@ import {
 import { CreditCard, Gear } from "@phosphor-icons/react/dist/ssr";
 
 const DropDownMenuPage = () => (
-  <ComponentDocsPageTemplate title="Drop Down Menu" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/dropdownmenu">
+  <ComponentDocsPageTemplate
+    title="Drop Down Menu"
+    githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/DropdownMenu.tsx"}
+    path="/dropdownmenu"
+  >
     <div className="p-8 min-h-[750px] flex flex-col gap-8 items-center justify-center">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
@@ -46,7 +50,7 @@ const DropDownMenuPage = () => (
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-72 max-h-32 overflow-y-auto">
           {Array.from({ length: 100 }).map((_item, i) => (
-            <DropdownMenuItem key={i} label={i + " Dev"}></DropdownMenuItem>
+            <DropdownMenuItem key={i} label={i + " Cool name"}></DropdownMenuItem>
           ))}
         </DropdownMenuContent>
       </DropdownMenu>

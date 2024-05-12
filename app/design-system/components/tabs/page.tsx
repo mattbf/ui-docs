@@ -6,7 +6,7 @@ import { DefaultTabsButton, Tabs, TabsContent, TabsList, TabsTrigger } from "@/c
 import { Text } from "@/components/ui/Text";
 
 const TabsPage = () => (
-  <ComponentDocsPageTemplate title="Tabs" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/tabs">
+  <ComponentDocsPageTemplate title="Tabs" githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/Tabs.tsx"} path="/tabs">
     <div className="p-8 min-h-[750px] flex flex-col items-center justify-start">
       <Text variant="overline" size="sm" className="text-text-secondary m-12">
         Using the default tab button
@@ -49,17 +49,17 @@ const TabsPage = () => (
       <Tabs defaultValue="default1" className="min-w-[400px] w-[600px] h-[200px]">
         <TabsList>
           <TabsTrigger value="default1">
-            <DefaultTabsButton tabAccentColor="sandstone" withDots>
+            <DefaultTabsButton tabAccentColor="orange" withDots>
               Uno
             </DefaultTabsButton>
           </TabsTrigger>
           <TabsTrigger value="default2">
-            <DefaultTabsButton tabAccentColor="evergreen-light" withDots>
+            <DefaultTabsButton tabAccentColor="green-light" withDots>
               Dos
             </DefaultTabsButton>
           </TabsTrigger>
           <TabsTrigger value="default3">
-            <DefaultTabsButton tabAccentColor="lavender" withDots>
+            <DefaultTabsButton tabAccentColor="purple" withDots>
               Tres
             </DefaultTabsButton>
           </TabsTrigger>
@@ -98,10 +98,10 @@ const TabsPage = () => (
             <Text>Text as trigger</Text>
           </TabsTrigger>
         </TabsList>
-        <TabsContent value="button" className="p-4 border border-lavender-500">
+        <TabsContent value="button" className="p-4 border border-purple-500">
           random content
         </TabsContent>
-        <TabsContent value="text" className="p-4 border border-lavender-500">
+        <TabsContent value="text" className="p-4 border border-purple-500">
           random text
         </TabsContent>
       </Tabs>

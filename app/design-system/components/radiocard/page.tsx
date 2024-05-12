@@ -8,7 +8,11 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/RadioGroup";
 const RadioCardPage = () => {
   const [checked, setChecked] = useState("option1");
   return (
-    <ComponentDocsPageTemplate title="Radio Card" githubLink={"https://github.com/src/components/ui/Component.tsx"} path="/radiocard">
+    <ComponentDocsPageTemplate
+      title="Radio Card"
+      githubLink={"https://github.com/org/repo-name/blob/develop/src/components/ui/RadioGroup.tsx"}
+      path="/radiocard"
+    >
       <div className="p-8 min-h-[250px] flex flex-col items-center justify-center gap-4">
         <RadioGroup>
           <RadioGroupItem id="1option1" value="1option1" label="Default option1">
